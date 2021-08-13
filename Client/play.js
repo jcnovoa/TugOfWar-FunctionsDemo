@@ -34,7 +34,7 @@ $("#team2btn").click(function(){
 var vote = function(teamId) {
 
     $.ajax({
-            url : siteDomain + "/incrementpoint",
+            url : siteDomain + "/IncrementPointTrigger",
             type: "POST",
             data: JSON.stringify(
                 {teamId: teamId}
@@ -57,7 +57,7 @@ var getSettings = function() {
     }
 
     $.ajax({
-            url : siteDomain + "/getsettings",
+            url : siteDomain + "/GetTeamSettings",
             type: "GET",
             contentType: "application/json",
             dataType   : "json",

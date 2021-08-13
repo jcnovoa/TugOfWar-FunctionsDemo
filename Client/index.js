@@ -55,7 +55,7 @@ var setupTeams = function() {
         }
 
     $.ajax({
-            url : siteDomain + "/createteams",
+            url : siteDomain + "/CreateTeamSettings",
             type: "POST",
             data: JSON.stringify(teamsData),
             contentType: "application/json",
@@ -105,7 +105,7 @@ var updateScore = function() {
 var getScore = function(teamData,teamNum) {
 
     $.ajax({
-            url : siteDomain + "/getscores",
+            url : siteDomain + "/GetCurrentScore",
             type: "POST",
             data: JSON.stringify(teamData),
             contentType: "application/json",
