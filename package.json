@@ -1,10 +1,22 @@
 {
-  "name": "TugOfWar-FunctionsDemo",
+  "name": "tugofwar-functionsdemo",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build Status](https://dev.azure.com/joraio/TugOfWar-Demo-JS/_apis/build/status/joescars.TugOfWar-FunctionsDemo?branchName=master)](https://dev.azure.com/joraio/TugOfWar-Demo-JS/_build/latest?definitionId=6?branchName=master)",
   "scripts": {
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcnovoa/TugOfWar-FunctionsDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcnovoa/TugOfWar-FunctionsDemo/issues"
+  },
+  "homepage": "https://github.com/jcnovoa/TugOfWar-FunctionsDemo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
