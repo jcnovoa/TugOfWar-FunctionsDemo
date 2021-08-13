@@ -15,7 +15,7 @@ var Team2Id;
 var Team1Score = 0;
 var Team2Score = 0;
 
-var siteDomain = "https://" + document.domain;
+var siteDomain = "https://vantage-api-ms.azure-api.net/VantageAzureAPIs";
 
 // for local functions debugging
 if(siteDomain.includes("localhost")) {
