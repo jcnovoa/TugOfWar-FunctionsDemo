@@ -8,7 +8,7 @@
                     "POST"
                 ]
             },
-            "backendUri": "https://%WEBSITE_HOSTNAME%/api/GetCurrentScore"
+            "backendUri": "https://vantage-api-ms.azure-api.net/VantageAzureAPIs/GetCurrentScore"
         },
         "incrementpoint": {
             "matchCondition": {
@@ -17,7 +17,7 @@
                     "POST"
                 ]
             },
-            "backendUri": "https://%WEBSITE_HOSTNAME%/api/IncrementPointTrigger"
+            "backendUri": "https://vantage-api-ms.azure-api.net/VantageAzureAPIs/IncrementPointTrigger"
         },
         "root": {
             "matchCondition": {
@@ -32,7 +32,7 @@
                     "POST"
                 ]
             },
-            "backendUri": "https://%WEBSITE_HOSTNAME%/api/CreateTeamSettings"
+            "backendUri": "https://vantage-api-ms.azure-api.net/VantageAzureAPIs/CreateTeamSettings"
         },
         "getsettings": {
             "matchCondition": {
@@ -41,7 +41,7 @@
                     "GET"
                 ]
             },
-            "backendUri": "https://%WEBSITE_HOSTNAME%/api/GetTeamSettings"
+            "backendUri": "https://vantage-api-ms.azure-api.net/VantageAzureAPIs/GetTeamSettings"
         },
         "default": {
             "matchCondition": {
