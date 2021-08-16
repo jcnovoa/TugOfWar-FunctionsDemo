@@ -11,7 +11,7 @@ var Team2Name = "Loading... ";
 var Team1Id;
 var Team2Id;
 
-var siteDomain = "https://vantage-api-ms.azure-api.net/VantageAzureAPIs";
+var siteDomain = "https://vantageazureapis.azurewebsites.net/api";
 
 // for local functions debugging
 if(siteDomain.includes("localhost")) {
